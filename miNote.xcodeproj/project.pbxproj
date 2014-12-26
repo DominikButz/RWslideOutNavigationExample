@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41F9E031A4DDA1500BA8100 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F9E021A4DDA1500BA8100 /* MenuViewController.swift */; };
 		B43430E61A07771200BDAD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43430E51A07771200BDAD4E /* AppDelegate.swift */; };
 		B43430E91A07771200BDAD4E /* miNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B43430E71A07771200BDAD4E /* miNote.xcdatamodeld */; };
 		B43430EE1A07771200BDAD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43430EC1A07771200BDAD4E /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		B43430F31A07771200BDAD4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43430F11A07771200BDAD4E /* LaunchScreen.xib */; };
 		B43430FF1A07771200BDAD4E /* miNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43430FE1A07771200BDAD4E /* miNoteTests.swift */; };
 		B43431141A07794300BDAD4E /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B434310E1A07786600BDAD4E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B43431261A09F79F00BDAD4E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43431251A09F79F00BDAD4E /* MenuViewController.swift */; };
 		B43431281A09F85B00BDAD4E /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43431271A09F85B00BDAD4E /* NotesListViewController.swift */; };
 		B434312B1A09F8EA00BDAD4E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B434312A1A09F8EA00BDAD4E /* SettingsViewController.swift */; };
 		B434312E1A09F99500BDAD4E /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B434312C1A09F99400BDAD4E /* reveal-icon.png */; };
@@ -70,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B41F9E021A4DDA1500BA8100 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B43430E01A07771200BDAD4E /* miNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43430E41A07771200BDAD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43430E51A07771200BDAD4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		B43430FD1A07771200BDAD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43430FE1A07771200BDAD4E /* miNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miNoteTests.swift; sourceTree = "<group>"; };
 		B43431081A07786600BDAD4E /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
-		B43431251A09F79F00BDAD4E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
 		B43431271A09F85B00BDAD4E /* NotesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
 		B434312A1A09F8EA00BDAD4E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B434312C1A09F99400BDAD4E /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
@@ -135,9 +135,9 @@
 			children = (
 				B43430EC1A07771200BDAD4E /* Main.storyboard */,
 				B43430E51A07771200BDAD4E /* AppDelegate.swift */,
-				B43431251A09F79F00BDAD4E /* MenuViewController.swift */,
 				B43431271A09F85B00BDAD4E /* NotesListViewController.swift */,
 				B434312A1A09F8EA00BDAD4E /* SettingsViewController.swift */,
+				B41F9E021A4DDA1500BA8100 /* MenuViewController.swift */,
 				B43431341A0B234200BDAD4E /* ContainerViewController.swift */,
 				B43431371A0C8F0900BDAD4E /* miNote-Bridging-Header.h */,
 				B43431361A0C8EFA00BDAD4E /* FXKeychain.h */,
@@ -316,12 +316,12 @@
 			files = (
 				B43430E61A07771200BDAD4E /* AppDelegate.swift in Sources */,
 				B43431351A0B234200BDAD4E /* ContainerViewController.swift in Sources */,
-				B43431261A09F79F00BDAD4E /* MenuViewController.swift in Sources */,
 				B43431281A09F85B00BDAD4E /* NotesListViewController.swift in Sources */,
 				B43430E91A07771200BDAD4E /* miNote.xcdatamodeld in Sources */,
 				B434313B1A0C92DE00BDAD4E /* KeychainWrapper.swift in Sources */,
 				B43431391A0C8F0A00BDAD4E /* FXKeychain.m in Sources */,
 				B434312B1A09F8EA00BDAD4E /* SettingsViewController.swift in Sources */,
+				B41F9E031A4DDA1500BA8100 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
