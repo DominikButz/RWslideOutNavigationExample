@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26AF57BA195A58FF00D1D3A7 /* IssuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AF57B9195A58FF00D1D3A7 /* IssuesViewController.swift */; };
+		26FA0E9E19551BDB008068A2 /* MMRecordAtlassian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26FA0E9C19551BDB008068A2 /* MMRecordAtlassian.xcdatamodeld */; };
+		26FA0EA319551BDB008068A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA0EA119551BDB008068A2 /* Main.storyboard */; };
+		26FA0EA519551BDB008068A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FA0EA419551BDB008068A2 /* Images.xcassets */; };
+		26FA0F0919551E91008068A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA0F0419551E91008068A2 /* AppDelegate.swift */; };
+		26FA0F0A19551E91008068A2 /* PlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA0F0819551E91008068A2 /* PlansViewController.swift */; };
+		26FA0F1219552760008068A2 /* plans.json in Resources */ = {isa = PBXBuildFile; fileRef = 26FA0F1119552760008068A2 /* plans.json */; };
+		26FC7C27195A5D8D0066A195 /* issue.json in Resources */ = {isa = PBXBuildFile; fileRef = 26FC7C26195A5D8D0066A195 /* issue.json */; };
+		26FC7C31195A64130066A195 /* InwardLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FC7C2B195A61E10066A195 /* InwardLink.swift */; };
+		26FC7C32195A641F0066A195 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA0F0F19552050008068A2 /* Plan.swift */; };
+		26FC7C33195A64260066A195 /* ATLRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA0F0B19551EAE008068A2 /* ATLRecord.swift */; };
+		26FC7C38195A64600066A195 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FC7C35195A64600066A195 /* Link.swift */; };
+		26FC7C39195A64600066A195 /* OutwardLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FC7C36195A64600066A195 /* OutwardLink.swift */; };
+		26FC7C3B195A65050066A195 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FC7C3A195A65050066A195 /* Issue.swift */; };
+		55A1CC1F195B9C6A007FBCB8 /* MMRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1CC0B195B9C6A007FBCB8 /* MMRecord.m */; };
+		55A1CC20195B9C6A007FBCB8 /* MMRecordCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1CC0D195B9C6A007FBCB8 /* MMRecordCache.m */; };
+		55A1CC21195B9C6A007FBCB8 /* MMRecordDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1CC0F195B9C6A007FBCB8 /* MMRecordDebugger.m */; };
+		55A1CC22195B9C6A007FBCB8 /* MMRecordMarshaler.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1CC11195B9C6A007FBCB8 /* MMRecordMarshaler.m */; };
+		55A1CC23195B9C6A007FBCB8 /* MMRecordProtoRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1CC13195B9C6A007FBCB8 /* MMRecordProtoRecord.m */; };
+		55A1CC24195B9C6A007FBCB8 /* MMRecordRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1CC15195B9C6A007FBCB8 /* MMRecordRepresentation.m */; };
+		55A1CC25195B9C6A007FBCB8 /* MMRecordResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1CC17195B9C6A007FBCB8 /* MMRecordResponse.m */; };
+		55A1CC26195B9C6A007FBCB8 /* MMServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1CC19195B9C6A007FBCB8 /* MMServer.m */; };
+		55A1CC27195B9C6A007FBCB8 /* MMServerPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1CC1B195B9C6A007FBCB8 /* MMServerPageManager.m */; };
+		55A1CC28195B9C6A007FBCB8 /* MMJSONServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A1CC1E195B9C6A007FBCB8 /* MMJSONServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26AF57B9195A58FF00D1D3A7 /* IssuesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssuesViewController.swift; sourceTree = "<group>"; };
+		26FA0E9519551BDB008068A2 /* MMRecordAtlassian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMRecordAtlassian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FA0E9919551BDB008068A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FA0E9D19551BDB008068A2 /* MMRecordAtlassian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MMRecordAtlassian.xcdatamodel; sourceTree = "<group>"; };
+		26FA0EA219551BDB008068A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26FA0EA419551BDB008068A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26FA0F0419551E91008068A2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26FA0F0819551E91008068A2 /* PlansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlansViewController.swift; sourceTree = "<group>"; };
+		26FA0F0B19551EAE008068A2 /* ATLRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATLRecord.swift; sourceTree = "<group>"; };
+		26FA0F0E19551FB1008068A2 /* MMRecordAtlassian-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMRecordAtlassian-Bridging-Header.h"; sourceTree = "<group>"; };
+		26FA0F0F19552050008068A2 /* Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		26FA0F1119552760008068A2 /* plans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plans.json; sourceTree = "<group>"; };
+		26FC7C26195A5D8D0066A195 /* issue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = issue.json; sourceTree = "<group>"; };
+		26FC7C2B195A61E10066A195 /* InwardLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InwardLink.swift; sourceTree = "<group>"; };
+		26FC7C35195A64600066A195 /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		26FC7C36195A64600066A195 /* OutwardLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutwardLink.swift; sourceTree = "<group>"; };
+		26FC7C3A195A65050066A195 /* Issue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		55A1CC0A195B9C6A007FBCB8 /* MMRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRecord.h; sourceTree = "<group>"; };
+		55A1CC0B195B9C6A007FBCB8 /* MMRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRecord.m; sourceTree = "<group>"; };
+		55A1CC0C195B9C6A007FBCB8 /* MMRecordCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRecordCache.h; sourceTree = "<group>"; };
+		55A1CC0D195B9C6A007FBCB8 /* MMRecordCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRecordCache.m; sourceTree = "<group>"; };
+		55A1CC0E195B9C6A007FBCB8 /* MMRecordDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRecordDebugger.h; sourceTree = "<group>"; };
+		55A1CC0F195B9C6A007FBCB8 /* MMRecordDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRecordDebugger.m; sourceTree = "<group>"; };
+		55A1CC10195B9C6A007FBCB8 /* MMRecordMarshaler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRecordMarshaler.h; sourceTree = "<group>"; };
+		55A1CC11195B9C6A007FBCB8 /* MMRecordMarshaler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRecordMarshaler.m; sourceTree = "<group>"; };
+		55A1CC12195B9C6A007FBCB8 /* MMRecordProtoRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRecordProtoRecord.h; sourceTree = "<group>"; };
+		55A1CC13195B9C6A007FBCB8 /* MMRecordProtoRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRecordProtoRecord.m; sourceTree = "<group>"; };
+		55A1CC14195B9C6A007FBCB8 /* MMRecordRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRecordRepresentation.h; sourceTree = "<group>"; };
+		55A1CC15195B9C6A007FBCB8 /* MMRecordRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRecordRepresentation.m; sourceTree = "<group>"; };
+		55A1CC16195B9C6A007FBCB8 /* MMRecordResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRecordResponse.h; sourceTree = "<group>"; };
+		55A1CC17195B9C6A007FBCB8 /* MMRecordResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRecordResponse.m; sourceTree = "<group>"; };
+		55A1CC18195B9C6A007FBCB8 /* MMServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMServer.h; sourceTree = "<group>"; };
+		55A1CC19195B9C6A007FBCB8 /* MMServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMServer.m; sourceTree = "<group>"; };
+		55A1CC1A195B9C6A007FBCB8 /* MMServerPageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMServerPageManager.h; sourceTree = "<group>"; };
+		55A1CC1B195B9C6A007FBCB8 /* MMServerPageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMServerPageManager.m; sourceTree = "<group>"; };
+		55A1CC1D195B9C6A007FBCB8 /* MMJSONServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMJSONServer.h; sourceTree = "<group>"; };
+		55A1CC1E195B9C6A007FBCB8 /* MMJSONServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMJSONServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26FA0E9219551BDB008068A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267E0BED195A83E000968879 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				26FC7C2B195A61E10066A195 /* InwardLink.swift */,
+				26FC7C3A195A65050066A195 /* Issue.swift */,
+				26FC7C35195A64600066A195 /* Link.swift */,
+				26FC7C36195A64600066A195 /* OutwardLink.swift */,
+				26FA0F0F19552050008068A2 /* Plan.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		267E0BEE195A83F400968879 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				26FC7C26195A5D8D0066A195 /* issue.json */,
+				26FA0F1119552760008068A2 /* plans.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		26FA0E8C19551BDB008068A2 = {
+			isa = PBXGroup;
+			children = (
+				26FA0E9719551BDB008068A2 /* MMRecordAtlassian */,
+				26FA0E9619551BDB008068A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26FA0E9619551BDB008068A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26FA0E9519551BDB008068A2 /* MMRecordAtlassian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26FA0E9719551BDB008068A2 /* MMRecordAtlassian */ = {
+			isa = PBXGroup;
+			children = (
+				55A1CC08195B9C61007FBCB8 /* Vendor */,
+				26FA0F0319551E91008068A2 /* Classes */,
+				26FA0F0D19551F89008068A2 /* Resources */,
+				26FA0E9819551BDB008068A2 /* Supporting Files */,
+			);
+			path = MMRecordAtlassian;
+			sourceTree = "<group>";
+		};
+		26FA0E9819551BDB008068A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26FA0E9919551BDB008068A2 /* Info.plist */,
+				26FA0F0E19551FB1008068A2 /* MMRecordAtlassian-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26FA0F0319551E91008068A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				26FA0F0619551E91008068A2 /* Model */,
+				26FA0F0719551E91008068A2 /* View */,
+				26FA0F0419551E91008068A2 /* AppDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		26FA0F0619551E91008068A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				267E0BED195A83E000968879 /* Entities */,
+				267E0BEE195A83F400968879 /* JSON */,
+				26FA0F0B19551EAE008068A2 /* ATLRecord.swift */,
+				26FA0E9C19551BDB008068A2 /* MMRecordAtlassian.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26FA0F0719551E91008068A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26FA0F0819551E91008068A2 /* PlansViewController.swift */,
+				26AF57B9195A58FF00D1D3A7 /* IssuesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26FA0F0D19551F89008068A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26FA0EA119551BDB008068A2 /* Main.storyboard */,
+				26FA0EA419551BDB008068A2 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		55A1CC08195B9C61007FBCB8 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				55A1CC09195B9C6A007FBCB8 /* MMRecord */,
+				55A1CC1C195B9C6A007FBCB8 /* MMRecordJSONServer */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		55A1CC09195B9C6A007FBCB8 /* MMRecord */ = {
+			isa = PBXGroup;
+			children = (
+				55A1CC0A195B9C6A007FBCB8 /* MMRecord.h */,
+				55A1CC0B195B9C6A007FBCB8 /* MMRecord.m */,
+				55A1CC0C195B9C6A007FBCB8 /* MMRecordCache.h */,
+				55A1CC0D195B9C6A007FBCB8 /* MMRecordCache.m */,
+				55A1CC0E195B9C6A007FBCB8 /* MMRecordDebugger.h */,
+				55A1CC0F195B9C6A007FBCB8 /* MMRecordDebugger.m */,
+				55A1CC10195B9C6A007FBCB8 /* MMRecordMarshaler.h */,
+				55A1CC11195B9C6A007FBCB8 /* MMRecordMarshaler.m */,
+				55A1CC12195B9C6A007FBCB8 /* MMRecordProtoRecord.h */,
+				55A1CC13195B9C6A007FBCB8 /* MMRecordProtoRecord.m */,
+				55A1CC14195B9C6A007FBCB8 /* MMRecordRepresentation.h */,
+				55A1CC15195B9C6A007FBCB8 /* MMRecordRepresentation.m */,
+				55A1CC16195B9C6A007FBCB8 /* MMRecordResponse.h */,
+				55A1CC17195B9C6A007FBCB8 /* MMRecordResponse.m */,
+				55A1CC18195B9C6A007FBCB8 /* MMServer.h */,
+				55A1CC19195B9C6A007FBCB8 /* MMServer.m */,
+				55A1CC1A195B9C6A007FBCB8 /* MMServerPageManager.h */,
+				55A1CC1B195B9C6A007FBCB8 /* MMServerPageManager.m */,
+			);
+			name = MMRecord;
+			path = ../../../Source/MMRecord;
+			sourceTree = "<group>";
+		};
+		55A1CC1C195B9C6A007FBCB8 /* MMRecordJSONServer */ = {
+			isa = PBXGroup;
+			children = (
+				55A1CC1D195B9C6A007FBCB8 /* MMJSONServer.h */,
+				55A1CC1E195B9C6A007FBCB8 /* MMJSONServer.m */,
+			);
+			name = MMRecordJSONServer;
+			path = ../../../Source/MMRecordJSONServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26FA0E9419551BDB008068A2 /* MMRecordAtlassian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FA0EB419551BDB008068A2 /* Build configuration list for PBXNativeTarget "MMRecordAtlassian" */;
+			buildPhases = (
+				26FA0E9119551BDB008068A2 /* Sources */,
+				26FA0E9219551BDB008068A2 /* Frameworks */,
+				26FA0E9319551BDB008068A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMRecordAtlassian;
+			productName = MMRecordAtlassian;
+			productReference = 26FA0E9519551BDB008068A2 /* MMRecordAtlassian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26FA0E8D19551BDB008068A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mutual Mobile";
+				TargetAttributes = {
+					26FA0E9419551BDB008068A2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 26FA0E9019551BDB008068A2 /* Build configuration list for PBXProject "MMRecordAtlassian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26FA0E8C19551BDB008068A2;
+			productRefGroup = 26FA0E9619551BDB008068A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26FA0E9419551BDB008068A2 /* MMRecordAtlassian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26FA0E9319551BDB008068A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FA0F1219552760008068A2 /* plans.json in Resources */,
+				26FA0EA319551BDB008068A2 /* Main.storyboard in Resources */,
+				26FA0EA519551BDB008068A2 /* Images.xcassets in Resources */,
+				26FC7C27195A5D8D0066A195 /* issue.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26FA0E9119551BDB008068A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A1CC25195B9C6A007FBCB8 /* MMRecordResponse.m in Sources */,
+				55A1CC21195B9C6A007FBCB8 /* MMRecordDebugger.m in Sources */,
+				26FC7C38195A64600066A195 /* Link.swift in Sources */,
+				55A1CC22195B9C6A007FBCB8 /* MMRecordMarshaler.m in Sources */,
+				26FC7C32195A641F0066A195 /* Plan.swift in Sources */,
+				26AF57BA195A58FF00D1D3A7 /* IssuesViewController.swift in Sources */,
+				55A1CC20195B9C6A007FBCB8 /* MMRecordCache.m in Sources */,
+				55A1CC23195B9C6A007FBCB8 /* MMRecordProtoRecord.m in Sources */,
+				26FC7C3B195A65050066A195 /* Issue.swift in Sources */,
+				26FA0F0A19551E91008068A2 /* PlansViewController.swift in Sources */,
+				26FC7C39195A64600066A195 /* OutwardLink.swift in Sources */,
+				26FA0F0919551E91008068A2 /* AppDelegate.swift in Sources */,
+				55A1CC28195B9C6A007FBCB8 /* MMJSONServer.m in Sources */,
+				26FC7C33195A64260066A195 /* ATLRecord.swift in Sources */,
+				55A1CC1F195B9C6A007FBCB8 /* MMRecord.m in Sources */,
+				55A1CC26195B9C6A007FBCB8 /* MMServer.m in Sources */,
+				26FA0E9E19551BDB008068A2 /* MMRecordAtlassian.xcdatamodeld in Sources */,
+				55A1CC27195B9C6A007FBCB8 /* MMServerPageManager.m in Sources */,
+				26FC7C31195A64130066A195 /* InwardLink.swift in Sources */,
+				55A1CC24195B9C6A007FBCB8 /* MMRecordRepresentation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26FA0EA119551BDB008068A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FA0EA219551BDB008068A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FA0EB219551BDB008068A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26FA0EB319551BDB008068A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26FA0EB519551BDB008068A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MMRecordAtlassian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MMRecordAtlassian/MMRecordAtlassian-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		26FA0EB619551BDB008068A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MMRecordAtlassian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MMRecordAtlassian/MMRecordAtlassian-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FA0E9019551BDB008068A2 /* Build configuration list for PBXProject "MMRecordAtlassian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FA0EB219551BDB008068A2 /* Debug */,
+				26FA0EB319551BDB008068A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FA0EB419551BDB008068A2 /* Build configuration list for PBXNativeTarget "MMRecordAtlassian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FA0EB519551BDB008068A2 /* Debug */,
+				26FA0EB619551BDB008068A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26FA0E9C19551BDB008068A2 /* MMRecordAtlassian.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26FA0E9D19551BDB008068A2 /* MMRecordAtlassian.xcdatamodel */,
+			);
+			currentVersion = 26FA0E9D19551BDB008068A2 /* MMRecordAtlassian.xcdatamodel */;
+			name = MMRecordAtlassian.xcdatamodeld;
+			path = ../../MMRecordAtlassian.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26FA0E8D19551BDB008068A2 /* Project object */;
+}
